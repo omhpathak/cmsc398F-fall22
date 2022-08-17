@@ -1,1 +1,1 @@
-# cmsc398F-fall22
+# CMSC398F - Fall 2022
