@@ -26,8 +26,9 @@ A block consists of:
 'nonce' -> int,
 'previous_hash' -> int
 
-create_block() creates a new block, appends it to the chain list, and returns the block
-The timestamp with be created with a call to
+create_block() creates a new block, appends it to the chain list, and returns the block.
+
+The timestamp with be created with a call to:
 
 ```
 datetime.now()
@@ -40,10 +41,12 @@ def proof_of_work(self, previous_nonce)
 ```
 
 Our proof-of-work method needs to repeatedly increment a nonce until we have a hash operation with 4 leading 0s (Ex. 0000c3af42fc31...).
-Once found, return the winning nonce
-The nonce should start at 1 everytime we do the proof for a block and increment from there
 
-The hash operation is defined as
+Once found, return the winning nonce.
+
+The nonce should start at 1 everytime we do the proof for a block and increment from there.
+
+The hash operation is defined as:
 
 ```
 hash_operation = hashlib.sha256(str(new_nonce ** 2 - previous_nonce** 2).encode()).hexdigest()
