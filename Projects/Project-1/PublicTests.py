@@ -41,7 +41,7 @@ class PublicTests(unittest.TestCase):
 
         nonces = [1, 533, 45293, 21391]
         for i in range(blockchain.get_chain_len()):
-            self.assertTrue(blockchain.chain[i]['nonce'], nonces[i])
+            self.assertEqual(blockchain.chain[i]['nonce'], nonces[i])
 
         return
 
