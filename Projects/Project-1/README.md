@@ -72,4 +72,4 @@ Keep in mind: you are comparing two blocks at a time... be wary of how you loop 
 - YOU WILL RECEIVE A 0 ON THE PROJECT IF YOU DO SO
 
 ### Submit:
-- Submit a file of your code to ELMS named with with the following format: LastName-FirstName-p1.py
+- Submit your blockchain.py file to ELMS. 
