@@ -1,4 +1,4 @@
-# CMSC398F - Fall 2022
+# CMSC398F - Spring 2023
 
 Welcome to CMSC398F!
 
